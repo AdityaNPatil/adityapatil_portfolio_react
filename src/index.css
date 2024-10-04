@@ -149,6 +149,9 @@ button:hover {
   text-align: center;
   background-color: var(--background-color);
   gap: 50px;
+
+/*   to prevent home page overflow */
+  overflow-x: hidden;
 }
 
 .heroCard {
