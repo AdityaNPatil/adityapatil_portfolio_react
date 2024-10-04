@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "Portfolio Website",
       description: "Built a professional portfolio from scratch, showcasing web design skills.",
-      link: "#",
+      link: "https://adityapatil.netlify.app/",
       btnText: "View Project",
       image: proj1
     },
@@ -36,14 +36,14 @@ const Projects = () => {
     {
       title: "Traffic Prediction Using AI",
       description: "Boosted algorithm efficiency by 30%, refining route recommendations.",
-      link: "",
+      link: "https://adityapatil.netlify.app/",
       btnText: "View Source",
       image: ""
     },
     {
       title: "Deep Learning Approaches for Neurogenesis",
       description: "Leveraged deep learning to predict neurogenesis, reducing human error assisting in treatment discovery for neurological disorders.",
-      link: "",
+      link: "https://adityapatil.netlify.app/",
       btnText: "View Source",
       image: proj5
     },
