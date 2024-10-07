@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: "Deep Learning Approaches for Neurogenesis",
       description: "Leveraged deep learning to predict neurogenesis, reducing human error assisting in treatment discovery for neurological disorders.",
-      link: "https://github.com/AdityaNPatil/neurogenesis_predictor"
+      link:"https://github.com/AdityaNPatil/neurogenesis_predictor"
       btnText: "View Source",
       image: proj5
     },
