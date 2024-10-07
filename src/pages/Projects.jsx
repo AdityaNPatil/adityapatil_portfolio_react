@@ -7,6 +7,7 @@ import proj2 from "../images/FoodWeatherStockProject.png"
 import proj3 from "../images/AmazonProject.png"
 import proj5 from "../images/neuroProj.png"
 import proj6 from "../images/blogProj.png"
+import proj7 from "../images/FoodRecipe.png"
 
 const Projects = () => {
 
@@ -53,6 +54,13 @@ const Projects = () => {
       link: "https://github.com/AdityaNPatil/custom_blog_with_API",
       btnText: "View Source",
       image: proj6
+    },
+    {
+      title: "Food Recipe App",
+      description: "A Food recipe application to view recipes with API calls using axios.",
+      link: "https://foodrecipeadi.netlify.app",
+      btnText: "View Website",
+      image: proj7
     }
   ];
 
