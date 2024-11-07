@@ -8,6 +8,7 @@ import proj3 from "../images/AmazonProject.png"
 import proj5 from "../images/neuroProj.png"
 import proj6 from "../images/blogProj.png"
 import proj7 from "../images/FoodRecipe.png"
+import proj8 from "../images/NewsApp.png"
 
 const Projects = () => {
 
@@ -61,6 +62,13 @@ const Projects = () => {
       link: "https://foodrecipeadi.netlify.app",
       btnText: "View Website",
       image: proj7
+    },
+    {
+      title: "News Application",
+      description: "A News application to view articles with API calls using NextJS.",
+      link: "https://github.com/AdityaNPatil/News-Application-NextJS",
+      btnText: "View Source",
+      image: proj8
     }
   ];
 
