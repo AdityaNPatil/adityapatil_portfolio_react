@@ -9,6 +9,7 @@ import proj5 from "../images/neuroProj.png"
 import proj6 from "../images/blogProj.png"
 import proj7 from "../images/FoodRecipe.png"
 import proj8 from "../images/NewsApp.png"
+import proj9 from "../images/URLShortener.png"
 
 const Projects = () => {
 
@@ -69,6 +70,13 @@ const Projects = () => {
       link: "https://github.com/AdityaNPatil/News-Application-NextJS",
       btnText: "View Source",
       image: proj8
+    },
+    {
+      title: "URL Shortener",
+      description: "A one stop solution to meet your URL shortening needs using NextJS",
+      link: "https://github.com/AdityaNPatil/URL-Shortener-NextJS",
+      btnText: "View Source",
+      image: proj9
     }
   ];
 
