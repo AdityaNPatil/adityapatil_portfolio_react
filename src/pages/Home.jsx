@@ -47,7 +47,7 @@ const Home = () => {
                         whileTap={{ scale: 0.9 }}
 
                     >
-                        <a href="https://drive.google.com/file/d/13Hri9XR29Ebb_RzT48Ftid5Q4YH2dtOA/view?usp=drive_link" target='_blank'>View Resume</a>
+                        <a href="https://drive.google.com/file/d/1LpbQbwDjHF1sOj0_ZiNpNa0IvsDzqEoZ/view" target='_blank'>View Resume</a>
                     </motion.button>
                 </div>
             </div>

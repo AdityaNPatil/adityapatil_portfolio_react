@@ -10,6 +10,7 @@ import proj6 from "../images/blogProj.png"
 import proj7 from "../images/FoodRecipe.png"
 import proj8 from "../images/NewsApp.png"
 import proj9 from "../images/URLShortener.png"
+import proj10 from "../images/AWSHospital.png"
 
 const Projects = () => {
 
@@ -77,6 +78,13 @@ const Projects = () => {
       link: "https://github.com/AdityaNPatil/URL-Shortener-NextJS",
       btnText: "View Source",
       image: proj9
+    },
+    {
+      title: "Hospital Patient Records Management System",
+      description: "A simple web application created using AWS services for Patient records managment",
+      link: "https://github.com/AdityaNPatil/Hospital-Management-System-AWS",
+      btnText: "View Source",
+      image: proj10
     }
   ];
 
