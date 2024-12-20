@@ -11,6 +11,7 @@ import proj7 from "../images/FoodRecipe.png"
 import proj8 from "../images/NewsApp.png"
 import proj9 from "../images/URLShortener.png"
 import proj10 from "../images/AWSHospital.png"
+import proj11 from "../images/iphoneProj.png"
 
 const Projects = () => {
 
@@ -85,6 +86,13 @@ const Projects = () => {
       link: "https://github.com/AdityaNPatil/Hospital-Management-System-AWS",
       btnText: "View Source",
       image: proj10
+    },
+    {
+      title: "Apple iPhone 3D Model Website",
+      description: "A simple web application created cloning the Apple iPhone website using React, GSAP, ThreeJS",
+      link: "https://iphoneadi.netlify.app",
+      btnText: "View Project",
+      image: proj11
     }
   ];
 
