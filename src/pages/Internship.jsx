@@ -9,6 +9,12 @@ import intern3 from "../images/soulai.jpg"
 // array to store internship details
 const internships = [
   {
+    title: 'UBS Regular Intern',
+    description: 'Working towards maintaing existing applications and developing new applications.',
+    image: intern1, 
+    duration: 'Jan 2025 - July 2025',
+  },
+  {
     title: 'UBS Summer Intern',
     description: 'Created over 15 visualizations for real-time monitoring and optimized data analysis.',
     image: intern1, 

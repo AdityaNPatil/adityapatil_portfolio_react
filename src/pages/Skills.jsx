@@ -19,6 +19,7 @@ import grafana from "../images/grafana.png"
 import prom from "../images/prometheus.png"
 import ml from "../images/ml.png"
 import python from "../images/python.png"
+import spring from "../images/springBoot.png"
 
 const Skills = () => {
     // array storing all skills 
@@ -79,6 +80,10 @@ const Skills = () => {
             name: "Python",
             image: python,
         },
+        {
+            name: "Spring Boot",
+            image: spring
+        }
     ];
 
     return (
