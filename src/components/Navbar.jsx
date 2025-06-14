@@ -42,10 +42,13 @@ const Navbar = () => {
                     <Link to="/projects" onClick={toggleMenu}>Projects</Link>
                 </li>
                 <li>
-                    <Link to="/intern" onClick={toggleMenu}>Internships</Link>
+                    <Link to="/intern" onClick={toggleMenu}>Experience</Link>
                 </li>
                 <li>
                     <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+                </li>
+                <li>
+                    <Link to="/matrix" onClick={toggleMenu}>Enter The Matrix</Link>
                 </li>
             </ul>
             <button onClick={toggleDarkMode}>

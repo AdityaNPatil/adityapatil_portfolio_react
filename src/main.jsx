@@ -11,6 +11,7 @@ import Internship from './pages/Internship.jsx';
 
 // router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MatrixPage from './components/MatrixPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/matrix",
+        element: <MatrixPage/>
       }
     ]
   }

@@ -1,5 +1,5 @@
-import React from 'react';
 import InternCard from '../components/InternCard';
+import GradientText from '../components/effects/GradientText';
 
 // images
 import intern1 from "../images/ubs.jpg"
@@ -11,13 +11,13 @@ const internships = [
   {
     title: 'UBS Regular Intern',
     description: 'Working towards maintaing existing applications and developing new applications.',
-    image: intern1, 
+    image: intern1,
     duration: 'Jan 2025 - July 2025',
   },
   {
     title: 'UBS Summer Intern',
     description: 'Created over 15 visualizations for real-time monitoring and optimized data analysis.',
-    image: intern1, 
+    image: intern1,
     duration: 'May 2024 - July 2024',
   },
   {
@@ -37,10 +37,17 @@ const internships = [
 const Internships = () => {
   return (
     <div className="internships-container">
-      <h2 className="internships-title">Internship Experience</h2>
+      <GradientText
+        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+        animationSpeed={4}
+        showBorder={false}
+        className="hero-title"
+      >
+        <h1>Experience</h1>
+      </GradientText>
       <div className="internships-grid">
         {internships.map((internship, index) => (
-            <InternCard key={index} internship={internship}/>
+          <InternCard key={index} internship={internship} />
         ))}
       </div>
     </div>

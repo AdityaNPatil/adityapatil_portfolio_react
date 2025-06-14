@@ -1,4 +1,4 @@
-import React from 'react';
+import GradientText from '../components/effects/GradientText'; 
 import ProjectCard from '../components/ProjectCard';
 
 // images
@@ -39,16 +39,9 @@ const Projects = () => {
       image: proj3
     },
     {
-      title: "Traffic Prediction Using AI",
-      description: "Boosted algorithm efficiency by 30%, refining route recommendations.",
-      link: "https://adityapatil.netlify.app/",
-      btnText: "View Source",
-      image: ""
-    },
-    {
       title: "Deep Learning Approaches for Neurogenesis",
       description: "Leveraged deep learning to predict neurogenesis, reducing human error assisting in treatment discovery for neurological disorders.",
-      link:  "https://github.com/AdityaNPatil/neurogenesis_predictor",
+      link: "https://github.com/AdityaNPatil/neurogenesis_predictor",
       btnText: "View Source",
       image: proj5
     },
@@ -98,8 +91,15 @@ const Projects = () => {
 
   return (
     <div className="projects-container">
-      <h1>My Projects</h1>
-      <h3>No better way to gain experience than real-life projects</h3>
+      <GradientText
+        colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+        animationSpeed={4}
+        showBorder={false}
+        className="hero-title"
+      >
+        <h1>Projects</h1>
+      </GradientText>
+      <h3 className='hero-subtitle text-center'>No better way to gain experience than real-life projects</h3>
       <div className="projects-grid">
         {/* map the projects */}
         {projects.map((project, index) => (

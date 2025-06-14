@@ -12,7 +12,7 @@ const SkillCard = ({ skill, imgSrc }) => {
             whileInView={{ opacity: 1, x: 0  , y:0}}
         >
             <img src={imgSrc} alt="Skill" />
-            <p>{skill}</p>
+            {/* <p>{skill}</p> */}
         </motion.li>
     )
 }
