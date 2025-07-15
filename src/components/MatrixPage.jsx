@@ -21,7 +21,7 @@ const MatrixPage = () => {
     const handleBluePill = () => {
         document.body.style.filter = 'blur(2px)';
         setTimeout(() => {
-            window.open('https://drive.google.com/file/d/1LpbQbwDjHF1sOj0_ZiNpNa0IvsDzqEoZ/view', '_blank');
+            window.open('https://drive.google.com/file/d/1TqrWyIwEX29p4GDXGbHFCSD4ZymPOt0S/view?usp=drivesdk', '_blank');
             document.body.style.filter = 'none';
         }, 1000);
     };
@@ -32,7 +32,7 @@ const MatrixPage = () => {
 
     const handleGameWin = () => {
         setTimeout(() => {
-            window.open('https://drive.google.com/file/d/1LpbQbwDjHF1sOj0_ZiNpNa0IvsDzqEoZ/view', '_blank');
+            window.open('https://drive.google.com/file/d/1TqrWyIwEX29p4GDXGbHFCSD4ZymPOt0S/view?usp=drivesdk', '_blank');
         }, 2000);
     };
 
